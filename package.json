@@ -2,10 +2,10 @@
   "name": "videojs-livestream-keeper",
   "version": "0.1.0",
   "description": "A video.js plugin that takes care of the chrome's and firefox's autoplay and 'video pause in background' features",
-  "main": "livestream-keeper.js",
+  "main": "src/livestream-keeper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist/ && ./node_modules/.bin/browserify livestream-keeper.js -o dist/livestream-keeper.js"
+    "build": "mkdir -p dist/ && ./node_modules/.bin/browserify src/livestream-keeper.js -o dist/livestream-keeper.js"
   },
   "keywords": [
     "videojs",
