@@ -1,6 +1,6 @@
 # videojs-livestream-keeper
 
-Experimental video.js plugin handling chrome's and firefox's autoplay and 'video pause in background' features for live streams. This plugin used in a project to watch live streams from ip cameras (ip camera -> rtmp -> flv-websocket -> flv.js -> videojs-flvjs)
+Experimental video.js plugin handling chrome's and firefox's autoplay and 'video pause in background' features for live streams. This plugin used in a project to watch live streams from ip cameras (ip camera rtsp stream -> rtmp -> flv-websocket -> flv.js -> videojs-flvjs in browser)
 
 * In every seconds the plugin gets the end of the seekable timerange and seeks before it
 * If player is paused, the plugin calls play
